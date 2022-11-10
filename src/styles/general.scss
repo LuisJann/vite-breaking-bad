@@ -1,0 +1,18 @@
+@use "./partials/variables.scss";
+
+@import"node_modules/bootstrap/scss/bootstrap";
+@import"node_modules/@fontsource/montserrat/index.css";
+
+body{
+    font-family:"Montserrat", sans-serif;
+    background-color: #2e3a46;
+}
+
+img{
+    max-width: 100%;
+}
+
+.ms-container{
+    width: 100%;
+    display: flex;
+}
