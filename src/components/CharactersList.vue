@@ -35,6 +35,11 @@ export default{
     display: flex;
     flex-direction: row;
     padding: 50px;
+
+    .loanding{
+        text-align: center;
+        color: black;
+    }
     .ms-card{
         background-color: $bg-color;
         width: 100%;
