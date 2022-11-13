@@ -23,7 +23,7 @@ export default{
       console.log("personaggio");
       let apiName = "https://www.breakingbadapi.com/api/characters?limit=5";
       if(this.store.filter !== ""){
-        apiName += `&name=${this.store.filter}`;
+        apiName += `&category=${this.store.filter}`;
       }
       axios.get(apiName).then((resp) => {
         console.log(resp);
